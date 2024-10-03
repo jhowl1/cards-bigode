@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+}
+
+header  {
+    background-image: url(../img/banner\ promotion.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    padding-bottom: 244px;
+   
+
+    & nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 16px 92px;
+
+        & ul {
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+            color: #EFEFEF;
+
+            & li:first-child {
+                color: #fff;
+            }
+        }
+
+        & .btns {
+
+
+            & button {
+                padding: 8px 16px;
+                border-radius: 8px;
+                background:transparent;
+                color: #fff;
+               
+            
+
+            }
+
+            & button:first-child {
+                margin-right: 16px;
+                background-color: #3B44F6;
+            }
+            & .border{
+                border: #fff solid 1px;
+            }
+
+
+        }
+    }
+    & .content {
+  
+        margin-top: 197px;
+        margin-left: 95px;
+        color: #fff;
+        width: 438px;
+        
+        & .title {
+            display: flex;
+          flex-direction: column;
+            gap: 17px;
+        }
+
+        & button{
+            background-color: #3B44F6;
+            padding: 16px 32px;
+            gap: 64px;
+
+
+        }
+    }
+
+}
